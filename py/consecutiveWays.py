@@ -12,6 +12,12 @@ def countConsecutive(N):
 		k = k+1
 	return count
 
+# N = a + (a+1) + (a+2) + ... + (a+k)
+#   = (k+1)a + 1+2+3+...+k
+#   = (k+1)a + k(k+1)/2
+
+# a = N - k(k+1)/2 / (k+1)
+# we will count all integer values of a
 
 n = 15
 print(countConsecutive(n))
