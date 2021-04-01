@@ -4,10 +4,13 @@ using namespace std;
 int N;
 multiset<int> r;
 multiset<int, greater<int> > l;
+
 int main() {
     scanf("%d", &N);
+
     for (int i = 0; i < N; ++i) {
         int a; scanf("%d", &a);
+        
         if (l.empty()) l.insert(a);
         else {
             if (a > *l.begin()) r.insert(a);

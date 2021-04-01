@@ -11,7 +11,7 @@ int main() {
 		long long int result = 0;
 		for(int i=s.size()-1; i>=0; --i) {
 			int binary_digit = s[i] - '0';
-			result += (binary_digit*powerof2);
+			result += (binary_digit * powerof2);
 			powerof2 *= 2;
 		}
 		cout << result << endl;
