@@ -6,5 +6,6 @@ def num_ways(N, X):
 			total += num_ways(N-i, X)
 	return total
 
+
 stepsAllowed = {1,2,3}
 print(num_ways(5, stepsAllowed)) 

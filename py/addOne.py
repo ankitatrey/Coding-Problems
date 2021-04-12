@@ -16,3 +16,4 @@ def add_one(array):
 
 print(add_one([1,9,9,9]))
 print(add_one([1,2,3,9]))
+# print(add_one([1]))
